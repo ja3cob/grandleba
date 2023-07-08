@@ -520,6 +520,7 @@ footer {
 		padding: 12px 8px;
 		text-align: center;
 		color: var(--brown);
+		min-width: 120px;
 	}
 	table tr:first-of-type {
 		background: #e5e5e5 !important;
