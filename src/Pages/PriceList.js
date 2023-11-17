@@ -76,9 +76,9 @@ const PriceList = () => {
               <h4>{t('priceList-type5')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList-season1')}</h5>
-                <h5>{t('priceList-price14')}</h5>
+                <h5>-</h5>
                 <h5>{t('priceList-season2')}</h5>
-                <h5>{t('priceList-price15')}</h5>
+                <h5>-</h5>
                 <h5>{t('priceList-season3')}</h5>
                 <h5>{t('priceList-price16')}</h5>
                 <h5>{t('priceList-season4')}</h5>
@@ -89,9 +89,9 @@ const PriceList = () => {
               <h4>{t('priceList-type6')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList-season1')}</h5>
-                <h5>{t('priceList-price18')}</h5>
+                <h5>-</h5>
                 <h5>{t('priceList-season2')}</h5>
-                <h5>{t('priceList-price19')}</h5>
+                <h5>-</h5>
                 <h5>{t('priceList-season3')}</h5>
                 <h5>{t('priceList-price20')}</h5>
                 <h5>{t('priceList-season4')}</h5>
@@ -184,36 +184,36 @@ const PriceList = () => {
               <h4>{t('priceList-season1')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList3')}</h5>
-                <h5>17.09 - 28.05 {t('priceList4')}</h5>
+                <h5>15.09 - 01.05 {t('priceList4')}</h5>
                 <h5>{t('priceList3')}</h5>
-                <h5>3.05-26.05</h5>
+                <h5>05.05-30.05</h5>
               </div>
             </div>
             <div className="mobile-table-item">
               <h4>{t('priceList-season2')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList3')}</h5>
-                <h5>26.05 - 07.06</h5>
+                <h5>01.05 - 05.05</h5>
                 <h5>{t('priceList3')}</h5>
-                <h5>27.08 - 17.09</h5>
+                <h5>02.06 - 29.06</h5>
+                <h5>{t('priceList3')}</h5>
+                <h5>25.08 - 15.09</h5>
               </div>
             </div>
             <div className="mobile-table-item">
               <h4>{t('priceList-season3')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList3')}</h5>
-                <h5>28.04 - 03.05</h5>
+                <h5>29.06 - 06.07</h5>
                 <h5>{t('priceList3')}</h5>
-                <h5>11.06 - 07.07 </h5>
+                <h5>30.05 - 02.06 </h5>
               </div>
             </div>
             <div className="mobile-table-item">
               <h4>{t('priceList-season4')}</h4>
               <div className="table-item-grid">
                 <h5>{t('priceList3')}</h5>
-                <h5>07.06 - 11.06</h5>
-                <h5>{t('priceList3')}</h5>
-                <h5>07.07 - 27.08</h5>
+                <h5>06.07 - 25.08</h5>
               </div>
             </div>
           </div>
@@ -257,15 +257,15 @@ const PriceList = () => {
             </tr>
             <tr>
               <td>{t('priceList-type5')}</td>
-              <td>{t('priceList-price14')}</td>
-              <td>{t('priceList-price15')}</td>
+              <td>-</td>
+              <td>-</td>
               <td>{t('priceList-price16')}</td>
               <td>{t('priceList-price17')}</td>
             </tr>
             <tr>
               <td>{t('priceList-type6')}</td>
-              <td>{t('priceList-price18')}</td>
-              <td>{t('priceList-price19')}</td>
+              <td>-</td>
+              <td>-</td>
               <td>{t('priceList-price20')}</td>
               <td>{t('priceList-price21')}</td>
             </tr>
@@ -324,18 +324,25 @@ const PriceList = () => {
             <tr>
               <td>{t('priceList3')}</td>
               <td>
-                17.09 - 28.04 <br /> {t('priceList4')}
+                15.09 - 01.05 <br /> {t('priceList4')}
               </td>
-              <td>26.05 - 07.06</td>
-              <td>28.04 - 03.05</td>
-              <td>07.06 - 11.06</td>
+              <td>01.05 - 05.05</td>
+              <td>29.06 - 06.07</td>
+              <td>06.07 - 25.08</td>
             </tr>
             <tr>
               <td>{t('priceList3')}</td>
-              <td>3.05 - 26.05</td>
-              <td>27.08 - 17.09</td>
-              <td>11.06 - 07.07</td>
-              <td>07.07 - 27.08</td>
+              <td>05.05 - 30.05</td>
+              <td>02.06 - 29.06</td>
+              <td>30.05 - 02.06</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{t('priceList3')}</td>
+              <td></td>
+              <td>25.08 - 15.09</td>
+              <td></td>
+              <td></td>
             </tr>
           </table>
         </div>
