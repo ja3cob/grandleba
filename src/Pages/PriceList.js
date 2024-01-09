@@ -404,7 +404,7 @@ const PriceList = () => {
           <p>
             <strong>ŁEBA PARK s.c.</strong>
             <br />
-            ul. Kolonijna 24
+            ul. Kolonijna 24A
             <br />
             84-360 Nowęcin
             <br />
