@@ -71,16 +71,14 @@ const Hero = ({ isMobile }) => {
           <div className="image-wrapper">
             <img
               src={HeroImage2}
-              alt="Nasz hotel systematycznie otrzymuje wysokie oceny w Guest Review Awards od kilku lat!"
+              alt="Nasz hotel otrzymuje wysokie oceny w Guest Review Awards!"
             />
           </div>
 
           <h5>
-            9,5 - Guest Review Awards 2020, <br />
-            9,5 - Guest Review Awards 2019, <br />
-            9,4 - Guest Review Award 2018
+            9,4 - Traveller Review Awards 2023
           </h5>
-          <p>{t('hotel5')}.</p>
+          <p>{t('hotel5')}</p>
         </div>
         <div data-aos="fade-up" className="hero-image">
           <div className="image-wrapper">
